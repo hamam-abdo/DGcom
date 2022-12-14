@@ -686,15 +686,15 @@ position: relative;
 .team .ta .img {
   position: relative;
   z-index: 2;
-border-bottom: 10px solid var(--mov-color);
-  background-color: var(--mov-color);
+border-bottom: 10px solid white ;
+  background-color: white;
 }
 .team .ta::after {
   content: "";
   width: 100%;
   height: 60px;
   position: absolute;
-  background-color: var(--mov-color);
+  background-color: white;
   left: 0;
   bottom: 0;
 }
@@ -723,7 +723,6 @@ border-bottom: 10px solid var(--mov-color);
   margin: 10px 0;
 }
 .team .ta .icon {
- 
   transition: var(--min-transition);
   -webkit-transition: var(--min-transition);
   -moz-transition: var(--min-transition);
