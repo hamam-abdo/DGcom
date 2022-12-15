@@ -786,6 +786,11 @@ border-bottom: 10px solid white ;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
   -o-border-radius: 5px;
+  transition: var(--min-transition);
+  -webkit-transition: var(--min-transition);
+  -moz-transition: var(--min-transition);
+  -ms-transition: var(--min-transition);
+  -o-transition: var(--min-transition);
 }
 
 .testimonial .box .r1 {
@@ -796,12 +801,29 @@ border-bottom: 10px solid white ;
 .testimonial .box .r1 h3 {
   color: var(--max-color);
   margin-bottom: 10px;
+  transition: var(--min-transition);
+  -webkit-transition: var(--min-transition);
+  -moz-transition: var(--min-transition);
+  -ms-transition: var(--min-transition);
+  -o-transition: var(--min-transition);
+}
+.testimonial .box .r1 span {
+  transition: var(--min-transition);
+  -webkit-transition: var(--min-transition);
+  -moz-transition: var(--min-transition);
+  -ms-transition: var(--min-transition);
+  -o-transition: var(--min-transition);
 }
 .testimonial .box .r2 {
   color: var(--min-color) ;
   line-height: 1.7;
   padding: 10px;
   font-size: 15px;
+  transition: var(--min-transition);
+  -webkit-transition: var(--min-transition);
+  -moz-transition: var(--min-transition);
+  -ms-transition: var(--min-transition);
+  -o-transition: var(--min-transition);
 }
 
 .testimonial .box img {
@@ -814,11 +836,11 @@ border-bottom: 10px solid white ;
   padding: 5px;
   border: 1px solid var(--mov-color);
 }
-.testimonial .box:nth-child(2) {
+.testimonial .box:hover{
   background-color: var(--bak);
 }
-.testimonial .box:nth-child(2) div , 
-.testimonial .box:nth-child(2)  h3 {
+.testimonial .box:hover div , 
+.testimonial .box:hover  h3 {
   color: var(--mov-color);
 }
 
